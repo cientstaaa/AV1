@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <hr>
+            <a href="../html/home.html">Home</a>
+            <br>
+            <a href="../html/more.html">more</a>
+            <hr>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <h1>--------------------------------------------------------Informações
+                    Pessoais-------------------------------------------------------</h1>
+                <br><br><br>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome:" required>
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+                <br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" placeholder="(00) 0 0000-0000" required>
+                <br><br>
+                <label for="rua">Endereço:</label>
+                <input type="text" id="rua" name="rua" placeholder="Rua... ... ..." required>
+                <br><br>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" name="data" id="data" placeholder="dd/mm/aaaa" required>
+                <br><br>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <h1>-------------------------------------------------------Informações
+                    Opcionais-----------------------------------------------------</h1>
+                <br><br><br>
+                <p>Genêro:</p>
+                <label for="gen">masculino</label>
+                <input type="radio" id="masc" name="masc">
+                <br>
+                <label for="gen">feminino</label>
+                <input type="radio" id="fem" name="fem">
+                <br>
+                <label for="gen">Prefiro não dizer:</label>
+                <input type="radio" id="nop" name="nop">
+                <br><br>
+                <label for="arq">Faça o upload da imagem de perfil do seu Github:</label><br>
+                <input type="file" name="arq" id="arq">
+                <br><br><br>
+                <article>
+                    <details>
+                        <p>ao aceitar os termos e serviços você concorda em usarmos os seus dados para melhor
+                            usabilidade <br>
+                            do site, mas sabendo que os mesmos não serão usados de forma maliciosa.</p>
+                        <summary>
+                            <label for="terms">Aceito os Termos e Serviços:</label>
+                            <input type="checkbox" name="terms" id="terms" required>
+                        </summary>
+                    </details>
+                </article>
+            </fieldset>
+        </section>
+        <br><br><br><br>
+        <a href="../html/home.html"><button type="submit">Enviar formulário</button></a>
+        <br><br>
+    </main>
+    <footer>
+        <p>A persistência é o caminho do êxito. <br><cite> <abbr title="charles Chaplin">Charles Chaplin</abbr></cite>
+        </p>
+    </footer>
+</body>
+
+</html>
